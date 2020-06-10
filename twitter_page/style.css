@@ -1,0 +1,167 @@
+.container
+{
+	position:fixed;
+     /*left:500px;
+     top:2%;*/
+	 margin-left:405px;
+}
+.container1
+{
+	width:600px;
+	height:553px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:31px;
+	margin-bottom:31px;
+	border-radius:12px;
+}
+.title h2
+{
+	font-size:26px;
+    position:relative;
+	left:165px;
+	font-family:"arial";
+}
+.title1 h3
+{
+	position:relative;
+	height:81px;
+	left:31px;
+	top:25px;
+	font-weight:bold;
+	font-size:25px;
+	font-family:arial;
+	
+}
+.title img
+{
+	width:50px;
+	height:50px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	left:-35px;
+
+}
+.title1 img
+{
+	width:40px;
+	height:40px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:20px;
+}
+.link1
+{
+	position:relative;
+	left:100px;
+	color:#1b95e4;
+	text-decoration:none;
+	font-family:arial;
+	font-size:15px;
+}
+.link2
+{
+	position:relative;
+	left:120px;
+	color:#1b95e4;
+	text-decoration:none;
+	font-family:arial;
+	font-size:15px;
+}
+.block1
+{
+	position:relative;
+	bottom:40px;
+}
+	
+.block input[type=text]
+{
+	border:2px solid white;
+	border-bottom-color:#657786;
+	background-color:#f5f8fa;
+	width:540px;
+	height:57px;
+}
+.block input[type=password]
+{
+	border:2px solid white;
+	border-bottom-color:#657786;
+	background-color:#f5f8fa;
+	width:540px;
+	height:57px;
+}
+.block1 input[type=tel]
+{
+	border:2px solid white;
+	border-bottom-color:#657786;
+	background-color:#f5f8fa;
+	width:540px;
+	height:57px;
+	margin-left:31px;
+}
+.block1 input[type=text]
+{
+	border:2px solid white;
+	border-bottom-color:#657786;
+	background-color:#f5f8fa;
+	width:540px;
+	height:57px;
+	margin-left:31px;
+
+}
+.block button
+{
+	background-color:#8ed0f8;
+	border: 2px solid white;
+    border-radius: 12px;
+	color:white;
+	font-weight:bold;
+	font-family:verdana;
+	width:548px;
+	height:49px;
+	text-align:center;
+}
+.top 
+{
+	position:relative;
+	left:500px;
+	bottom:380px;
+	border-radius:12px;
+	background-color:#8ed0f8;
+	border: 2px solid white;
+	color:white;
+	width:60px;
+	height: 28px;
+}
+.block label
+{
+	position:relative;
+	top:20px;
+	left:2px;
+	padding:4px;
+	color:#7b7794;
+	font-family;
+}
+.block1 label
+{
+	position:relative;
+	top:25px;
+	left:34px;
+	padding:6px;
+	color:#7b7794;
+	font-family:arial;
+}
+.text
+{
+	color:#4fade7;
+	margin-left:31px;
+}
+#click:hover
+{
+	background-color: darkblue;
+}

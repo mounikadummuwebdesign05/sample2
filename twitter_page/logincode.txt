@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title> Login on Twitter/Twitter </title>
+	<link rel="icon" type="image/x-icon" href="C:\Users\Mounika\Desktop\twitter_page\images/twitter.png" >
+	<link rel="stylesheet" type="text/css" href="C:\Users\Mounika\Desktop\twitter_page\style.css">
+	<script>
+	  function signin(){
+	  
+	  var finalusername="mounika";
+	  var finalpassword="dummu";
+		  var userName = document.getElementById("loginUsername").value;
+		  var password = document.getElementById("loginPassword").value;
+		  if( (userName =="")||(password=="")){
+		    alert("please enter user name or password");
+		  }else{
+		    if((finalusername == userName)&&(finalpassword==password)){
+			 alert("successfully loged in");
+			}else{
+			alert("login failed");
+			}
+			 
+		  }
+		  
+		 
+		  
+		  
+        }
+        document.getElementById("click").style.hover="background-color:darkblue";		
+	</script>
+  </head>
+  <body>
+  <div class="container">
+    <form action="#">
+	    <div class="title">
+	      <img src="C:/Users/Mounika/Desktop/twitter_page/images/twitter.png" alt="twitter_image">
+	      <h2>Log in to Twitter</h2>
+	    </div>
+		<div class="block">
+	     <label for="name">Phone,email,or username </label> <br>
+	     <input id="loginUsername" type="text" name="name" > <br>
+	     <label for="paswrd"> Password</label> <br>
+		 <input id="loginPassword" type="password" name="paswrd" > <br><br>
+		 <button id="click" onclick = "signin()" type="submit" name="Log in" > Log in</button><br>
+		</div>
+	</form>
+	 <a class="link1" href="https://twitter.com/account/begin_password_reset">Forgot password?</a>
+	 <a class="link2" href="C:/Users/Mounika/Desktop/twitter_page/signup.html"> .Sign up for Twitter</a>
+  </div>
+  </body>
+</html>

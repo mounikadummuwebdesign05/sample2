@@ -1,0 +1,25 @@
+<html>
+<head>
+ <title> Sign up for Twitter/ Twitter </title>
+	<link rel="icon" type="image/x-icon" href="C:/Users/Mounika/Desktop/twitter_page/images/twitter.png" >
+	<link rel="stylesheet" type="text/css" href="C:\Users\Mounika\Desktop\twitter_page\style.css">
+</head>
+<body style="background:#999999">
+<div class="container1" style="background:white">
+  <div class="title1">
+  <img src="C:/Users/Mounika/Desktop/twitter_page/images/twitter.png" alt="twitter_image" width="19px" height="16px">
+  <h3> Create your account</h3>
+  </div>
+  <div class="block1">
+    <label for="fname">Name</label><br>
+	<input type="text" name="fname"><br><br>
+	<label for="phone"> Phone</label><br>
+	<input type="tel" name="phone"><br><br>
+    <p class="text"> Use email instead </p>
+   </div>
+   <button class="top" type="submit"> Next </button>
+</div>
+
+</body>
+</html>
+
